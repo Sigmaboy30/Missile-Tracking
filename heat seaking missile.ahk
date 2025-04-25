@@ -13,7 +13,7 @@ esc::exitapp
 k::
 
 Loop {
-    PixelSearch, Px, Py, 513, 25, 800, 469 A_ScreenWidth, A_ScreenHeight, targetColor, tolerance, Fast
+    PixelSearch, Px, Py, 513, 25, 800, 469, targetColor, tolerance, Fast
     if !ErrorLevel {
         MouseMove, %Px%, %Py%, 5  ; Move mouse smoothly to the detected color
     }
